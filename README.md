@@ -6,6 +6,10 @@ An experiment into combining a ForEx API along with Tensorflow for singal proces
 
 Suppose one is required to make regular transactions from currency A to currency B. For example, suppose money is earned at some rate *r* in currency A, but that every month, some fixed amount needs to be paid in currency B. The goal is to minimise the amount of expected expenditure in currency A in order to meet the required spending in currency B.
 
+## Requirements
+
+* Quandl API : Importantly, the quandl API requires an authentication key. This is freely available for access to daily tick data and should be stored raw in quandlAPIKey.txt (in the PythonExchange directory). Without a key, authentication will fail. Some data is still available, but on the whole this is insufficient.
+
 ## Authors
 
-* **Chris Smithersn**
+* **Chris Smithers**
